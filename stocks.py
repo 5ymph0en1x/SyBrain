@@ -70,7 +70,7 @@ def Main(args):
     # The number of previous days of data used
     # when making a prediction
     numPastDays = 50
-    PlotData(D)
+    # PlotData(D)
     # Number of neurons in the input layer
     i = numPastDays * 7 + 1
     # Number of neurons in the output layer
@@ -89,10 +89,10 @@ def Main(args):
     P = sp.PredictDate(args[1], args[2])
     print(P)
     # Keep track of number of predicted results for plot
-    n = P.shape[0]
+    # n = P.shape[0]
     # Append the predicted results to the actual results
-    D = P.append(D)
+    # D = P.append(D)
     # Predicted results are the first n rows
     # D.to_csv(r'xbt_m1_treated.csv', index=False)
-    PlotData(D, range(n + 1))
+    # PlotData(D, range(n + 1))
     return (P)
