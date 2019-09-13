@@ -277,7 +277,7 @@ def bmex():
         try:
             if datetime_minute_cached != dt.now().minute:
                 time_starter = dt.utcnow() - timedelta(minutes=750)
-                print(time_starter)
+                # print(time_starter)
                 data = client.Trade.Trade_getBucketed(symbol=instrument_bmex, binSize="1m", count=750,
                                                       startTime=time_starter).result()
                 df = pd.DataFrame(columns=['Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'Adj Close'])
