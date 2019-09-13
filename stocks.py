@@ -5,7 +5,7 @@ Created on Wed Nov  2 07:36:10 2016
 @author: f002
 """
 
-from StockPredictor import StockPredictor, ParseData, PlotData
+from stockpredictor import StockPredictor, ParseData, PlotData
 from sklearn.neighbors import KNeighborsRegressor
 # Used to get command line arguments
 import sys
