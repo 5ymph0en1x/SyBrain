@@ -1,6 +1,5 @@
 # SyBrain
-Scalping Trading Unit and Machine Learning using BitMEX API
-ML implementation has been inspired by this author : https://github.com/nicholastoddsmith/pythonml
+Scalping Trading Unit and Machine Learning using BitMEX API. ML implementation has been inspired by this author : https://github.com/nicholastoddsmith/pythonml
 
 ------------------------------------
 
