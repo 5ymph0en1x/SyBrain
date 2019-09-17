@@ -355,18 +355,13 @@ def bmex():
         except Exception as e:
             print(str(e))
             ws_bmex.exit()
+            print(" This is the end !")
 
         except KeyboardInterrupt:
             ws_bmex.exit()
-
-    print("This is the end !")
+            print(" This is the end !")
 
 
 if __name__ == '__main__':
     print("It began in Africa...")
     bmex()
-    reboot = 0
-    while reboot < 5:
-        bmex()
-        print("Rebooting...")
-        reboot += 1
