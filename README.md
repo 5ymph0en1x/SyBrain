@@ -1,6 +1,8 @@
 # SyBrain
 Scalping Trading Unit and Machine Learning using BitMEX API. ML implementation has been inspired by this author : https://github.com/nicholastoddsmith/pythonml
 
+![Alt text](illustration.png?raw=true "SyBrain Logic")
+
 ------------------------------------
 
 Configuration
