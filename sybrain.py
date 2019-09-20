@@ -3,7 +3,7 @@ from datetime import timedelta
 from stocks import Main  # Machine Learning Module
 import pandas as pd
 from time import sleep
-from utils import bitmex_http_conn2 as bitmex
+from utils import bitmex_http_com as bitmex
 from utils.bitmex_websocket_com import BitMEXWebsocket
 
 #########################################
