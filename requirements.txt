@@ -1,0 +1,9 @@
+# This file is used by pip to install required python packages
+# Usage: pip3 install -r requirements.txt
+
+numpy == 1.17.2
+pandas == 0.25.1
+matplotlib == 3.1.1
+sklearn == 0.21.3
+bravado == 10.4.1
+websocket-client == 0.56.0
