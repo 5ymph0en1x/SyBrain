@@ -14,3 +14,9 @@ Just replace the key and secret fields with yours and adjust the number of contr
 Execution
 
 python sybrain.py
+
+------------------------------------
+
+Donations to allow further developments
+
+BTC: 3BMEXbS4Neu5KwsiATuZVowmwYD3UPMuxo
